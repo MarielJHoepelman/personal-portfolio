@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import { FooterLink, FooterWrapper } from "../styles";
 
 const Footer = () => {
