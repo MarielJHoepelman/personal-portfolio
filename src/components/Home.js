@@ -15,7 +15,7 @@ export default class Home extends Component {
       <div>
         <NameWrapper>mariel hoepelman</NameWrapper>
         <ResumeLink
-          href="https://mhpersonal.s3.amazonaws.com/mariel-hoepelman-SWE.pdf"
+          href="https://mhpersonal.s3.amazonaws.com/Mariel+Hoepelman+SWE.pdf"
           target="blank"
           rel="external"
         >

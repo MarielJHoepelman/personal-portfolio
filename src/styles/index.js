@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 const NEONPINK = "#fe019a";
+const NEONBLUE= "#0000ff";
 
 export const BodyContainer = styled.div`
   background: black;
@@ -18,7 +19,8 @@ export const NameWrapper = styled.h1`
   font-family: "Montserrat", sans-serif;
   transition: all 1s ease-in;
   :hover {
-    color: ${NEONPINK};
+    color: ${NEONBLUE};
+    text-shadow: 2px 2px 2px ${NEONBLUE};
   }
 `;
 
@@ -65,7 +67,7 @@ export const ResumeLink = styled.a`
   font-size: 1.5em;
   transition: all 1s ease-in;
   :hover {
-    color: ${NEONPINK};
+    color: ${NEONBLUE};
   }
 `;
 
@@ -74,7 +76,7 @@ export const FooterLink = styled.a`
   text-decoration: none;
   transition: all 1s ease-in;
   :hover {
-    color: ${NEONPINK};
+    color: ${NEONBLUE};
   }
 `;
 

@@ -4,7 +4,7 @@ import { FooterLink, FooterWrapper } from "../styles";
 const Footer = () => {
   return (
     <FooterWrapper>
-      <FooterLink href="mailto:marielhoepelman@gmail.com">email me</FooterLink>
+      <FooterLink href="marielhoepelmanswe@gmail.com">email me</FooterLink>
     </FooterWrapper>
   );
 };
